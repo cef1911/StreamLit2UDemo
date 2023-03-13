@@ -44,16 +44,16 @@ st.dataframe(df2, use_container_width=True)
 
 # st.bar_chart(df2)
 
-# st.bar_chart(df2, y = 'Team A', x='Fish Caught')
+st.bar_chart(df2, y = 'Team A', x='Fish Caught')
 
-# Team A Data
-d = {'Team A':['John','Nick','Stacey','Tina','Steve'],
-     'Fish Caught':[21, 13, 6, 30, 9],
-     'Role':['Captain', 'Data Gatherer', 'Statistics Person', 'Team Liason', 'Assistant Captain']}
+# # Team A Data
+# d = {'Team A':['John','Sara','Tony','Patricia','Tina'],
+#      'Fish Caught':[21, 4, 10, 6, 30],
+#      'Role':['Captain', 'Data Gatherer', 'Statistics Person', 'Team Liason', 'Assistant Captain']}
 
-teamA = pd.DataFrame(data = d)
+# teamA = pd.DataFrame(data = d)
 
-st.bar_chart(teamA, y = 'Team A', x='Fish Caught')
+# st.bar_chart(teamA, y = 'Team A', x='Fish Caught')
 
 # https://towardsdatascience.com/streamlit-from-scratch-presenting-data-d5b0c77f9622
 # # The Incredible Widget Company
