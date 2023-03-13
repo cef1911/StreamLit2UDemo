@@ -47,9 +47,9 @@ st.bar_chart(df2)
 st.bar_chart(df2, y = 'Team A', x='Fish Caught')
 
 # Team A Data
-d = {'Team A':['John','Nick','Stacey','Tina','Steve],
+d = {'Team A':['John','Nick','Stacey','Tina','Steve'],
      'Fish Caught':[21. 13. 6, 30, 9],
-     'Role':['Captain', 'Data Gatherer', Statistics Person, 'Team Liason', 'Assistant Captain']}
+     'Role':['Captain', 'Data Gatherer', 'Statistics Person', 'Team Liason', 'Assistant Captain']}
 
 teamA = pd.DataFrame(data = d)
 
