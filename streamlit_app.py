@@ -66,7 +66,7 @@ st.bar_chart(df2, y = 'Team A', x='Fish Caught')
 
 # Crypto monthly data
 dc = {'Fish Caught':[1,2,3,4,5,6,7,8,9,10,11],
-     'Fishing Casts':[477,387,444,462,384,297,192,327,221,193,204],
+     'Fishing Casts':[477,387,444,462,384,297,192,327,221,193,204]}
      #'Ethereum':[3767,2796,2973,3448,2824,1816,1057,1630,1587,1311,1579]}
 
 fishdata = pd.DataFrame(data = dc)
