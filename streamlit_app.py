@@ -76,11 +76,11 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 # import matplotlib.pyplot as plt
 # import numpy as np
 
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
+# arr = np.random.normal(1, 1, size=100)
+# fig, ax = plt.subplots()
+# ax.hist(arr, bins=20)
 
-st.pyplot(fig)
+# st.pyplot(fig)
 
 # # Pie chart will be used kids team's data, This existing code below is where the slices will be ordered and plotted counter-clockwise:
 # labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
