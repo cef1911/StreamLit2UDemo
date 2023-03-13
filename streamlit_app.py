@@ -42,9 +42,9 @@ st.dataframe(df2, use_container_width=True)
 # #     np.random.randn(20, 3),
 # #     columns=["a", "b", "c"])
 
-st.bar_chart(df2)
+# st.bar_chart(df2)
 
-st.bar_chart(df2, y = 'Team A', x='Fish Caught')
+# st.bar_chart(df2, y = 'Team A', x='Fish Caught')
 
 # Team A Data
 d = {'Team A':['John','Nick','Stacey','Tina','Steve'],
