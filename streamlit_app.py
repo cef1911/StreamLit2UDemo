@@ -73,8 +73,8 @@ dc = {'Fish Caught':[1,2,3,4,5,6,7,8,9,10,11],
 fishdata = pd.DataFrame(data = dc)
 st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
 arr = np.random.normal(1, 1, size=100)
 fig, ax = plt.subplots()
