@@ -46,17 +46,20 @@ st.bar_chart(df2)
 
 st.bar_chart(df2, y = 'Team A', x='Fish Caught')
 
-# df3 = pd.DataFrame({'lab':['A', 'B', 'C'], 'val':[10, 30, 20]})
-# ax = df3.plot.bar(x='lab', y='val', rot=0)
+# Team A Data
+d = {'Team A':['John','Nick','Stacey','Tina','Steve],
+     'Fish Caught':[21. 13. 6, 30, 9],
+     'Role':['Captain', 'Data Gatherer', Statistics Person, 'Team Liason', 'Assistant Captain']}
 
-# st.bar_chart(df3)
+teamA = pd.DataFrame(data = d)
 
-# Team A	Role	Fish Caught
-# John	Captain	10
-# Sara	Data Wrangler	12
-# Nick	Team Community Liason	21
-# Rex	Statistics Person	7
-# Cathy	Asst Captain	14
-# st.balloons()
+st.bar_chart(teamA, y = 'Team A', x='Fish Caught')
 
-# st.snow()
+# https://towardsdatascience.com/streamlit-from-scratch-presenting-data-d5b0c77f9622
+# # The Incredible Widget Company
+# d = {'Quarter':[1,2,3,4],
+#      'Widgets':[100,110,112,120],
+#      'Wodgets':[50,100,120, 125],
+#      'Wudgets':[200,150,100,90]}
+     
+# salesdf = pd.DataFrame(d)
