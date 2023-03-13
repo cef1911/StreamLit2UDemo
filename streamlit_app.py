@@ -44,6 +44,11 @@ st.dataframe(df2, use_container_width=True)
 
 st.bar_chart(df2)
 
+df3 = pd.DataFrame({'lab':['A', 'B', 'C'], 'val':[10, 30, 20]})
+ax = df.plot.bar(x='lab', y='val', rot=0)
+
+st.bar_chart(df3)
+
 # Team A	Role	Fish Caught
 # John	Captain	10
 # Sara	Data Wrangler	12
