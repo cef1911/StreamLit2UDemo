@@ -75,7 +75,7 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 
 # Pie chart will be used kids team's data, This existing code below is where the slices will be ordered and plotted counter-clockwise:
 labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
-sizes = [15, 30, 45, 1
+sizes = [15, 30, 45, 1]
 explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
 fig1, ax1 = plt.subplots()
