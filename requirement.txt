@@ -5,3 +5,4 @@ numpy
 plotly
 figure_factory 
 time
+matplotlib
