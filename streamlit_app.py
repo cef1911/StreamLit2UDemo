@@ -35,7 +35,7 @@ df2 = pd.DataFrame(
     ]
 )
 
-st.dataframe(df, use_container_width=True)
+# st.dataframe(df, use_container_width=True)
 st.dataframe(df2, use_container_width=True)
 
 
