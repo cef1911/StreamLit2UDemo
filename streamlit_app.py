@@ -42,7 +42,7 @@ st.dataframe(df2, use_container_width=True)
 # #     np.random.randn(20, 3),
 # #     columns=["a", "b", "c"])
 
-# st.bar_chart(df2)
+st.bar_chart(df2)
 
 # Team A	Role	Fish Caught
 # John	Captain	10
