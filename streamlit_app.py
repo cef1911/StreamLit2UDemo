@@ -12,7 +12,7 @@ import time
 
 
 """
-# Starting to make demo of streamlit components Kids Fishing Data Science Project
+# Demo of streamlit components Kids Fishing Data Science Project
 
 DataFrames which will be the team info.
 4 teams of 5 Kids
@@ -94,7 +94,9 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 
 # st.pyplot(fig1)
 
-
+"""
+# Demo of Coin Flip
+"""
 import streamlit as st, random, time    
 
 time.sleep(1)
