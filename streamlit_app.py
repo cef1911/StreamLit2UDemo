@@ -93,3 +93,13 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 # ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 # st.pyplot(fig1)
+
+
+import streamlit as st, random, time    
+
+time.sleep(1)
+coins = ['http://re-bol.com/heads.jpg', 'http://re-bol.com/tails.jpg']
+coin = random.choice(coins)
+st.image(coin)
+if st.button('Flip'):
+  st.experimental_rerun()
