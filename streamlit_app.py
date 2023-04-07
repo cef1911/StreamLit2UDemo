@@ -107,9 +107,10 @@ if st.button('Flip'):
   st.experimental_rerun()
 
 """
-# Demo of Coin Flip
+# Demo of Live Webcam Viewer
 
-Credit to:Nick Antonaccio (nick@com-pute.com)
+Credit to:
+Nick Antonaccio (nick@com-pute.com)
 """
 import streamlit as st
 
