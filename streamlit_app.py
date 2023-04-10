@@ -132,7 +132,7 @@ if cam:
   st.image('https://cwwp2.dot.ca.gov/data/d2/cctv/image/' + cam)
 
 """
-#Demo of Calculator
+# Demo of Calculator
 
 Credit to:
 Nick Antonaccio (nick@com-pute.com)
