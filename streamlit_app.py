@@ -96,6 +96,9 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 
 """
 # Demo of Coin Flip
+
+Credit to:
+Nick Antonaccio (nick@com-pute.com)
 """
 import streamlit as st, random, time    
 
