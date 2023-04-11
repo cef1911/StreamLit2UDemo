@@ -202,7 +202,8 @@ st.text_input('Result', st.session_state.total)
 st.write("Streamlit Play:) creating dataframes and plotly plots")
 
 """
-#Demo of Schedule Slider
+# Demo of Schedule Slider
+
 """
 
 from datetime import time
