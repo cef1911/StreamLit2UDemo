@@ -198,3 +198,17 @@ if col3.button('/'): st.session_state.total+='/'
 if col4.button('='): 
   st.session_state.total=str(eval(st.session_state.total))
 st.text_input('Result', st.session_state.total)
+
+st.write("Streamlit Play:) creating dataframes and plotly plots")
+
+"""
+#Demo of Schedule Slider
+"""
+
+from datetime import time
+
+appointment = st.slider(
+    "Schedule your appointment:",
+    value=(time(11, 30), time(12, 45)))
+st.write("You're scheduled for:", appointment)
+
