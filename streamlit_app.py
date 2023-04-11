@@ -95,6 +95,16 @@ st.bar_chart(fishdata, y = 'Fish Caught', x='Fishing Casts')
 # st.pyplot(fig1)
 
 """
+# Demo of Chart Data DataFrame
+
+"""
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=["a", "b", "c"])
+
+st.bar_chart(chart_data)
+
+"""
 # Demo of Coin Flip
 
 Credit to:
