@@ -14,7 +14,7 @@ st.balloons()
 
 st.snow()
 
-#Hi everyone
+# Hi everyone
 
 """
 # Demo of streamlit components Kids Fishing Data Science Project
