@@ -19,6 +19,8 @@ st.snow()
 """
 # Demo of streamlit components Kids Fishing Data Science Project
 
+# Hi everyone
+
 DataFrames which will be the team info.
 4 teams of 5 Kids
 More info to be added consistently
