@@ -10,9 +10,9 @@ import time
 #import plotly as px
 #import plotly.figure_factory as ff
 
-#st.balloons()
+st.balloons()
 
-#st.snow()
+st.snow()
 
 #Hi everyone
 
