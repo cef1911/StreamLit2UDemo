@@ -10,6 +10,11 @@ import time
 #import plotly as px
 #import plotly.figure_factory as ff
 
+#st.balloons()
+
+#st.snow()
+
+#Hi everyone
 
 """
 # Demo of streamlit components Kids Fishing Data Science Project
